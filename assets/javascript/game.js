@@ -20,10 +20,10 @@ var numberToGuess;
 var pickedNumber = [];
 var alerts = "";
 
-//set random number from 18-120
+//set random number from 19-120
 
 
-numberToGuess = Math.floor(Math.random() * 102) + 18;
+numberToGuess = Math.floor(Math.random() * 102) + 19;
 
 $("#number-to-guess").text(numberToGuess);
 
@@ -48,7 +48,7 @@ for (var i = 0; i < fourArray.length; i++) {
 function resetGame() {
     counter = 0;
 
-    numberToGuess = Math.floor(Math.random() * 102) + 18;
+    numberToGuess = Math.floor(Math.random() * 102) + 19;
 
     $("#number-to-guess").text(numberToGuess);
 
