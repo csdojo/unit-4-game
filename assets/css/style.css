@@ -1,0 +1,50 @@
+body{
+    padding-bottom: 60px;
+}
+#header{
+    background:  #ca6e2a;
+    color: antiquewhite;
+    display: inline;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#content{
+    background: #fbe6cd;
+    color: rgb(6, 87, 60);
+}
+
+#randomnumber{
+    display: block;
+    background: #5cc983;
+    color: black;
+    padding: 30px;
+    width: 100px;
+}
+
+.list-group{
+}
+
+.container2{
+    max-width: 600px;
+     margin-top: 40px;
+}
+/* #number-to-guess{
+    background: rgb(6, 87, 60);
+} */
+
+#numbertog{
+    background: rgb(6, 87, 60);
+    display: block;
+    width: 100px;
+}
+
+li{
+    background: #49ebe5;
+}
+
+.diamond-image{
+    height: 120px;
+    width: 120px;
+}
